@@ -1,0 +1,98 @@
+
+.main {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading{
+  display: flex;
+  flex-direction: row;
+}
+
+.comment{
+  margin-bottom: 170px;
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  width: 465px;
+  word-break: break-all;
+}
+
+.comment-text {
+  padding-left: 36px;
+  background-color: #8344DB1A;
+  color: grey;
+}
+
+.user {
+  font-family: poppins;
+  padding-left: 3px;
+  font-weight: 300;
+  background-color: #8344DB1A;
+  display: flex;
+  flex-direction: row;
+}
+
+.input {
+  height: 30px;
+  width: 434px;
+  background-color: #F8F9FB;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  color: blue;
+  background-color: none;
+}
+
+.submit {
+  cursor: pointer;
+  background-color: #F8F9FB;
+  border: none;
+
+}
+
+.fn-btn {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 26px;
+  background-color: #8344DB1A;
+}
+
+.reply{
+  padding-bottom: 20px;
+  background-color: #8344DB1A;
+  padding-left: 36px;
+  color: grey
+}
+
+.reply-text{
+  padding-left: 36px;
+}
+
+.rep-btn{
+  padding-top: 3px;
+  padding-left: 26px;
+}
+
+.rep-user{
+  font-family: poppins;
+  padding-left: 3px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+}
